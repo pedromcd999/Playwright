@@ -61,24 +61,24 @@ export default defineConfig({
       use: { ...devices['Desktop Firefox'] },
     },
 
-    // {
-    //   name: 'webkit',
-    //   use: { ...devices['Desktop Safari'] },
-    // },
+    {
+      name: 'webkit',
+      use: { ...devices['Desktop Safari'] },
+    },
 
     /* Test against mobile viewports. */
-    {
-      name: 'Pixel 5',
-      use: { ...devices['Pixel 5'] },
-    },
-    {
-      name: 'iPhone 12',
-      use: { ...devices['iPhone 12'] },
-    },
-    {
-      name: 'Galaxy S9',
-      use: { ...devices['Galaxy S9+'] },
-    },
+    // {
+    //   name: 'Pixel 5',
+    //   use: { ...devices['Pixel 5'] },
+    // },
+    // {
+    //   name: 'iPhone 12',
+    //   use: { ...devices['iPhone 12'] },
+    // },
+    // {
+    //   name: 'Galaxy S9',
+    //   use: { ...devices['Galaxy S9+'] },
+    // },
     // {
     //   name: 'Mobile Safari',
     //   use: { ...devices['iPhone 12'] },
