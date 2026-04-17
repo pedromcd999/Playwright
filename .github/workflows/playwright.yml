@@ -4,6 +4,7 @@ on:
     branches: [main, master]
   pull_request:
     branches: [main, master]
+
 jobs:
   test:
     timeout-minutes: 60
@@ -11,10 +12,8 @@ jobs:
     strategy:
       matrix:
         browser: [chromium, firefox, webkit]
-  build:
-    runs-on: ubuntu-latest
     env:
-      NPM_CONFIG_REGISTRY: https://registry.npmjs.org/
+      NPM_CONFIG_REGISTRY: https://registry.npmjs.org/   # ← Registro público
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
