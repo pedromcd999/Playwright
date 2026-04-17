@@ -17,7 +17,10 @@ jobs:
         with:
           node-version: 18
       - name: Install dependencies
-        run: npm ci
+        run: |
+          npm config set proxy http://172.17.0.16:8080
+          npm config set https-proxy http://172.17.0.16:8080
+          npm ci
       - name: Install Playwright browsers
         run: npx playwright install --with-deps ${{ matrix.browser }}
       - name: Run Playwright tests
