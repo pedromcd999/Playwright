@@ -1,0 +1,124 @@
+# ==============================
+# SISTEMA
+# ==============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==============================
+# LOGS
+# ==============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==============================
+# DEPENDENCIAS
+# ==============================
+node_modules/
+vendor/
+
+# ==============================
+# BUILD / DIST
+# ==============================
+dist/
+build/
+out/
+coverage/
+.next/
+.nuxt/
+.svelte-kit/
+.storybook/
+.vite/
+.cache/
+
+# ==============================
+# VARIABLES DE ENTORNO
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# IDE / EDITORES
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# ==============================
+# PYTHON
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+venv/
+.env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+
+# ==============================
+# DJANGO
+# ==============================
+db.sqlite3
+media/
+
+# ==============================
+# JAVA
+# ==============================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# ==============================
+# C / C++
+# ==============================
+*.o
+*.obj
+*.exe
+*.out
+
+# ==============================
+# DOCKER
+# ==============================
+.dockerignore
+
+# ==============================
+# ARCHIVOS TEMPORALES
+# ==============================
+*.tmp
+*.temp
+*.bak
+*.old
+
+# ==============================
+# BASES DE DATOS
+# ==============================
+*.sqlite
+*.sqlite3
+*.db
+
+# ==============================
+# TESTING
+# ==============================
+playwright-report/
+test-results/
+coverage/
+
+# ==============================
+# ARCHIVOS GENERADOS
+# ==============================
+*.lock
