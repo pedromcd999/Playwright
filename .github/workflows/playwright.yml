@@ -11,9 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        browser: [chromium, firefox, webkit]
-    env:
-      NPM_CONFIG_REGISTRY: https://registry.npmjs.org/   # ← Registro público
+        browser: [chromium, firefox, webkit] # ← Registro público
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
